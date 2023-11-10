@@ -66,6 +66,10 @@ public class FirstPdf {
     document.addCreator("Olivier Barais");
   }
 
+  public void unUsed2(int j){
+    System.out.println("Coucou modifié !");
+  }
+
   static void addTitlePage(Document document) throws DocumentException {
     Paragraph preface = new Paragraph();
     // We add one empty line
