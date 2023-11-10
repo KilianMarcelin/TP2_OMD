@@ -70,7 +70,11 @@ public class FirstPdf {
     System.out.println("Coucou modifié !");
   }
 
+
   // Ce commentaire va creer un conflit lors du merge
+
+  // Commentaire present dans une branche
+
   static void addTitlePage(Document document) throws DocumentException {
     Paragraph preface = new Paragraph();
     // We add one empty line
