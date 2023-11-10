@@ -118,7 +118,26 @@
                 <artifactId>maven-pmd-plugin</artifactId>
                 <version>3.21.0</version>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-changelog-plugin</artifactId>
+            </plugin>
         </plugins>
-
     </reporting>
+    <scm>
+        <!-- Utilisez le lien SSH de votre dépôt GitHub pour la connexion -->
+        <connection>scm:git:git@github.com:KilianMarcelin/TP2_OMD.git</connection>
+
+        <!-- Utilisez l'URL HTTPS de votre dépôt GitHub pour l'URL -->
+        <url>https://github.com/KilianMarcelin/TP2_OMD</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <id>KilianMarcelin</id>
+            <name>Kilian Marcelin</name>
+            <email>kilian.marcelin@gmail.com</email>
+        </developer>
+    </developers>
+
 </project>
