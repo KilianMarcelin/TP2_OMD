@@ -1,15 +1,15 @@
 package org.tpmaven;
 
 import com.itextpdf.text.Document;
-import com.itextpdf.text.DocumentException;
-import org.junit.jupiter.api.Test;
-import java.io.IOException;
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.Test;
+
+import static org.junit.Assert.assertTrue;
+
 
 public class FirstPdfTest {
 
     @Test
-    void testAddMetaData() throws IOException, DocumentException {
+    public void testAddMetaData() {
 
         // Call the addMetaData method
         Document document = new Document();
