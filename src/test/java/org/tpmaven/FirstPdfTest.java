@@ -1,16 +1,9 @@
 package org.tpmaven;
 
-import junit.framework.TestCase;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-public class FirstPdfTest extends TestCase {
-
-    public FirstPdfTest(String testName){
-        super(testName);
-    }
+public class FirstPdfTest {
 
     @Test
     void main() {
@@ -19,14 +12,16 @@ public class FirstPdfTest extends TestCase {
 
     @Test
     void addMetaData() {
+        // Your test logic for addMetaData
     }
 
     @Test
     void addTitlePage() {
-
+        // Your test logic for addTitlePage
     }
 
     @Test
     void addContent() {
+        // Your test logic for addContent
     }
 }
